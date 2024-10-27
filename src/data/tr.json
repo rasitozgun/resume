@@ -94,20 +94,20 @@
 	
 	"projects": [
 		{
-			"name": "Scrapper Discord Bot",
-			"startDate": "2022",
-			"endDate": "2022",
-			"description": "JavaScript webscrapper kullanılan Discord çeviri botu",
-			"highlights": [
-				"htmlparser2",
-				"deneme"
-			],
-			"url": "https://github.com/rasitozgun/translateDiscordBot",
+			"name": "Vinventory (Veritfy Stock)",
+			"startDate": "2024",
+			"endDate": "",
+			"description": "Ekibim ile Next.js, Zustand, TypeScript ve TanStack Query kullanarak, PHP backend ile entegre edilmiş bir envanter yönetim sistemi olan Verify Stock'ı oluşturdum. Bu proje, VeritfyTech'in ilk ürünüdür. Ekip çalışmasını sonuna kadar öğrendiğim bir proje oldu.",
+			"url": "https://veritfy.com",
 			"tags": [
-				"htmlparser2",
-				"discord.js"
+				"Next.js",
+				"Zustand",
+				"Tanstack",
+				"Shadcn",
+				""
 			]
 		},
+		
 		{
 			"name": "Veritfy.com",
 			"startDate": "2024",
@@ -122,17 +122,18 @@
 			]
 		},
 		{
-			"name": "Vinventory (Veritfy Stock)",
-			"startDate": "2024",
-			"endDate": "",
-			"description": "Ekibim ile Next.js, Zustand, TypeScript ve TanStack Query kullanarak, PHP backend ile entegre edilmiş bir envanter yönetim sistemi olan Verify Stock'ı oluşturdum. Bu proje, VeritfyTech'in ilk ürünüdür. Ekip çalışmasını sonuna kadar öğrendiğim bir proje oldu.",
-			"url": "https://veritfy.com",
+			"name": "Scrapper Discord Bot",
+			"startDate": "2022",
+			"endDate": "2022",
+			"description": "JavaScript webscrapper kullanılan Discord çeviri botu",
+			"highlights": [
+				"htmlparser2",
+				"deneme"
+			],
+			"url": "https://github.com/rasitozgun/translateDiscordBot",
 			"tags": [
-				"Next.js",
-				"Zustand",
-				"Tanstack",
-				"Shadcn",
-				""
+				"htmlparser2",
+				"discord.js"
 			]
 		},
 		{
