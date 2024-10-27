@@ -1,0 +1,156 @@
+{
+	"basics": {
+		"name": "M. Raşit Özgün",
+		"label": "Fullstack Developer",
+		"image": "https://i.imgur.com/KNq8g5C.jpeg",
+		"email": "mrasitozgun@gmail.com",
+		"phone": "+905432243394",
+		"url": "https://rasitozgun.dev",
+		"summary": "Uygulamaları sıfırdan oluşturabilen bir full stack web geliştiricisiyim. Çoğunlukla freelancer ve sözleşmeli olarak çalıştığım için birçok farklı rolü üstlenmeye alışkınım. Her şeyden önce kullanıcı geri bildirimlerine öncelik veren, ürün odaklı bir geliştiriciyim. Yeni projeleri araştırırken genellikle çok esneklik gösterebiliyorum.",
+		"profiles": [
+			{
+				"network": "Github",
+				"username": "rasitozgun",
+				"url": "https://github.com/rasitozgun"
+			},
+			{
+				"network": "Linkedin",
+				"username": "rasitozgun",
+				"url": "https://linkedin.com/in/rasitozgun"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Demirören Technology / iddaa.com, Frontend Intern",
+			"position": "Frontend Intern",
+			"url": "https://www.demiroren.com.tr/",
+			"startDate": "2023-07-02",
+			"endDate": "2023-08-26",
+			"summary": "Web geliştirme stajım süresince Next.js, Styled Components, Redux ve WebSocket ile çalışarak UI, veri yönetimi ve takım çalışması becerilerimi geliştirdim.",
+			"highlights": []
+		},
+		{
+			"name": "Freelance",
+			"position": "Fullstack Freelance",
+			"url": "https://rasitozgun.dev",
+			"startDate": "2023-07-02",
+			"endDate": "",
+			"summary": "Hem frontend hem de backend teknolojilerindeki deneyimlerimle desteklenen, farklı programlama dillerinde özelleştirilmiş çözümler sunarak, çeşitli müşteri ihtiyaçlarını karşılayan yüksek kaliteli web uygulamaları geliştiriyorum.",
+			"highlights": []
+		},
+		{
+			"name": "Veritfy",
+			"position": "Fullstack Developer",
+			"url": "https://rasitozgun.dev",
+			"startDate": "2024-07-02",
+			"endDate": "",
+			"summary": "Frontend, backend ve sunucu operasyonları arasında kusursuz entegrasyon sağlayarak uçtan uca web geliştirme ve dağıtımını yönetiyorum. Koddan dağıtıma kadar sağlam, ölçeklenebilir çözümler sunuyorum.",
+			"highlights": []
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Açık Yazılım Ağı",
+			"position": "Gönüllü",
+			"url": "https://eksisozluk.com/6-subat-depremi-vatandas-durum-listesi--7572090",
+			"startDate": "2023-01-01",
+			"endDate": "2023-01-01",
+			"summary": "Depremden sonra hastane listelerini anlamlı verilere dönüştüren küçük bir web sitesi oluşturarak ailelerin kayıp yakınlarını bulmalarına yardımcı oldum. Bu çalışma, afetzedelere yardımcı olmak için açık kaynak yazılım topluluğuyla birlikte yürütülen daha büyük bir girişimin parçasıydı.",
+			"highlights": []
+		}
+	],
+	"skills": [
+		{
+			"name": "Web Development",
+			"level": "Mid",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"React (and frameworks)",
+				"PHP",
+				"Go","Docker"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "İngilizce",
+			"fluency": "Orta Seviye"
+		}
+	],
+	"interests": [
+		{
+			"name": "Film - Dizi"
+		},
+		{
+			"name": "Oyun"
+		}
+	],
+	"projects": [
+		{
+			"name": "Scrapper Discord Bot",
+			"startDate": "2022",
+			"endDate": "2022",
+			"description": "JavaScript webscrapper kullanılan Discord çeviri botu",
+			"highlights": [
+				"htmlparser2",
+				"deneme"
+			],
+			"url": "https://github.com/rasitozgun/translateDiscordBot",
+			"tags": [
+				"htmlparser2",
+				"discord.js"
+			]
+		},
+		{
+			"name": "Veritfy.com",
+			"startDate": "2024",
+			"endDate": "2024",
+			"description": "VeritfyTech için landing page",
+			"url": "https://veritfy.com",
+			"tags": [
+				"Next.js",
+				"next-intl",
+				"i18n",
+				"shadcn"
+			]
+		},
+		{
+			"name": "Vinventory (Veritfy Stock)",
+			"startDate": "2024",
+			"endDate": "",
+			"description": "Next.js, Zustand, TypeScript ve TanStack Query kullanarak, PHP backend ile entegre edilmiş bir envanter yönetim sistemi olan Verify Stock'ı oluşturdum. Bu proje, etkili envanter yönetimi için ölçeklenebilir ve kullanıcı dostu çözümler geliştirme konusundaki becerilerimi gösteriyor.",
+			"url": "https://veritfy.com",
+			"tags": [
+				"Next.js",
+				"Zustand",
+				"Tanstack",
+				"Shadcn",
+				""
+			]
+		},
+		{
+			"name": "PHP",
+			"startDate": "2021",
+			"endDate": "2021",
+			"description": "Öğrenciliğim sırasında geliştirdiğim PHP projeleri. E-ticaret: https://ecommerce.rasitozgun.dev Mağaza: https://shop.rasitozgun.dev",
+			"highlights": [
+				"htmlparser2",
+				"deneme"
+			],
+			"url": "https://github.com/rasitozgun/ecommercePhp",
+			"tags": [
+				"PHP",
+				"Stripe-php"
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "Hakan Yıldırım",
+			"reference": "hakaany@gmail.com - Eskişehir Osmangazi Üniversitesi Bilgisayar Programcılığı Öğretim Görevlisi"
+		}
+	]
+}
