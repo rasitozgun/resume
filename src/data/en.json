@@ -87,7 +87,7 @@
 			"startDate": "2024",
 			"endDate": "",
 			"description": "With my team, I created Verify Stock, an inventory management system integrated with PHP backend using Next.js, Zustand, TypeScript, and TanStack Query. This project is VeritfyTech's first product. It was a project where I thoroughly learned teamwork.",
-			"url": "https://veritfy.com",
+			"url": "https://demo.veritfystock.com",
 			"tags": [
 				"Next.js",
 				"Zustand",
