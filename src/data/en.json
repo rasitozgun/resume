@@ -21,15 +21,7 @@
 		]
 	},
 	"work": [
-		{
-			"name": "Demirören Technology / iddaa.com",
-			"position": "Frontend Intern",
-			"url": "https://www.demiroren.com.tr/",
-			"startDate": "2023-07-02",
-			"endDate": "2023-08-26",
-			"summary": "During my time as a web development intern, I worked with Next.js, Styled Components, Redux, and WebSocket, improving my UI, data management, and teamwork skills.",
-			"highlights": []
-		},
+		
 		{
 			"name": "Freelance",
 			"position": "Fullstack Freelance",
@@ -46,6 +38,14 @@
 			"startDate": "2024-07-02",
 			"endDate": "",
 			"summary": "Manage end-to-end web development and deployment, ensuring seamless integration across frontend, backend, and server operations. Deliver robust, scalable solutions from code to deployment.",
+			"highlights": []
+		},{
+			"name": "Demirören Technology / iddaa.com",
+			"position": "Frontend Intern",
+			"url": "https://www.demiroren.com.tr/",
+			"startDate": "2023-07-02",
+			"endDate": "2023-08-26",
+			"summary": "During my time as a web development intern, I worked with Next.js, Styled Components, Redux, and WebSocket, improving my UI, data management, and teamwork skills.",
 			"highlights": []
 		}
 	],
@@ -80,14 +80,7 @@
 			"fluency": "Intermediate"
 		}
 	],
-	"interests": [
-		{
-			"name": "Film - Dizi"
-		},
-		{
-			"name": "Oyun"
-		}
-	],
+	
 	"projects": [
 		{
 			"name": "Scrapper Discord Bot",

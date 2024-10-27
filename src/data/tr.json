@@ -7,7 +7,7 @@
 		"phone": "+905432243394",
 		"url": "https://rasitozgun.dev",
         
-		"summary": "Sıfırdan uygulama geliştirme yeteneğine sahip bir Full Stack Web Developer olarak, şimdiye kadar çoğunlukla freelancer ve contractor olarak çalıştım. Yeni projeler üretmek söz konusu olduğunda kolaylıkla adapte olabiliyorum, ayrıca ürün odaklı bir developer olarak her şeyden önce feedbacklere öncelik veriyorum.",
+		"summary": "Sıfırdan uygulama geliştiren bir Full Stack Web Developer olarak, şimdiye kadar çoğunlukla freelancer ve contractor olarak çalıştım. Yeni projeler üretmek söz konusu olduğunda kolaylıkla adapte olabiliyorum, ayrıca ürün odaklı bir developer olarak her şeyden önce feedbacklere öncelik veriyorum.",
 		"profiles": [
 			{
 				"network": "Github",
@@ -32,15 +32,7 @@
 		"references": "References / Referanslar"
 	},
 	"work": [
-		{
-			"name": "Demirören Technology / iddaa.com",
-			"position": "Frontend Intern",
-			"url": "https://www.demiroren.com.tr/",
-			"startDate": "2023-07-02",
-			"endDate": "2023-08-26",
-			"summary": "Web geliştirme stajım süresince Next.js, Styled Components, Redux ve WebSocket ile çalışarak UI, veri yönetimi ve takım çalışması becerilerimi geliştirdim.",
-			"highlights": []
-		},
+		
 		{
 			"name": "Freelance",
 			"position": "Fullstack Freelance",
@@ -57,6 +49,14 @@
 			"startDate": "2024-07-02",
 			"endDate": "",
 			"summary": "Frontend, backend ve sunucu operasyonları arasında kusursuz entegrasyon sağlayarak uçtan uca web geliştirme ve dağıtımını yönetiyorum. Koddan dağıtıma kadar sağlam, ölçeklenebilir çözümler sunuyorum.",
+			"highlights": []
+		},{
+			"name": "Demirören Technology / iddaa.com",
+			"position": "Frontend Intern",
+			"url": "https://www.demiroren.com.tr/",
+			"startDate": "2023-07-02",
+			"endDate": "2023-08-26",
+			"summary": "Web geliştirme stajım süresince Next.js, Styled Components, Redux ve WebSocket ile çalışarak UI, veri yönetimi ve takım çalışması becerilerimi geliştirdim.",
 			"highlights": []
 		}
 	],
@@ -91,14 +91,7 @@
 			"fluency": "Orta Seviye"
 		}
 	],
-	"interests": [
-		{
-			"name": "Film - Dizi"
-		},
-		{
-			"name": "Oyun"
-		}
-	],
+	
 	"projects": [
 		{
 			"name": "Scrapper Discord Bot",
