@@ -1,0 +1,22 @@
+{
+  "tr": {
+    "workExperience": "İş Deneyimi",
+    "education": "Eğitim",
+    "projects": "Projeler",
+    "skills": "Yetenekler",
+    "languages": "Diller",
+    "volunteer": "Gönüllü Çalışmalar",
+    "interests": "İlgi Alanları",
+    "references": "Referanslar"
+  },
+  "en": {
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "skills": "Skills",
+    "languages": "Languages",
+    "volunteer": "Volunteer Work",
+    "interests": "Interests",
+    "references": "References"
+  }
+}

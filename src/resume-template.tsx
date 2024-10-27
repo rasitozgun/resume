@@ -1,14 +1,16 @@
 import React from 'react';
 import { Mail, Phone, Globe, Github, Linkedin } from 'lucide-react';
 import type { ResumeData } from './types/resume';
+import sections from './data/sections.json';
 
 interface ResumeProps {
   data: ResumeData;
+  language: 'tr' | 'en';
 }
 
-const Resume: React.FC<ResumeProps> = ({ data }) => {
-  const { basics, work, projects, skills, languages, volunteer } = data;
-
+const Resume: React.FC<ResumeProps> = ({ data,language }) => {
+  const { basics, work, projects, skills, languages, volunteer  } = data;
+const main_sections = sections[language]; // Dile göre başlıkları
   return (
     <div className="print-container max-w-[21cm] mx-auto p-6 bg-white text-gray-800 print:p-4 print:mx-0 print:shadow-none">
       {/* Header - Boşlukları azaltıldı */}
@@ -43,13 +45,15 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
       </header>
 
       {/* Summary - Daha kompakt */}
-      <section className="mb-3">
+       <section className="mb-3">
         <p className="text-xs print-text-sm print-text-gray">{basics.summary}</p>
       </section>
 
       {/* Work Experience */}
       <section className="mb-3">
-        <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">Work Experience</h3>
+        <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">
+          {main_sections.workExperience}
+        </h3>
         <div className="space-y-2">
           {work.map((job, index) => (
             <div key={index}>
@@ -71,7 +75,7 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
 
       {/* Projects */}
       <section className="mb-3">
-        <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">Projects</h3>
+        <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">{main_sections.projects}</h3>
         <div className="space-y-2">
           {projects.map((project, index) => (
             <div key={index}>
@@ -88,14 +92,14 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
       {/* Skills & Languages in 2 columns */}
       <div className="grid grid-cols-2 gap-4 mb-3">
         <section>
-          <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">Skills</h3>
+          <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">{main_sections.skills}</h3>
           <div className="text-xs print-text-gray">
             {skills[0].keywords.join(', ')}
           </div>
         </section>
 
         <section>
-          <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">Languages</h3>
+          <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark"> {main_sections.languages}</h3>
           <div className="text-xs print-text-gray">
             {languages.map((lang) => `${lang.language} (${lang.fluency})`).join(', ')}
           </div>
@@ -105,7 +109,7 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
       {/* Volunteer Work */}
       {volunteer && volunteer.length > 0 && (
         <section>
-          <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">Volunteer Work</h3>
+          <h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">{main_sections.volunteer}</h3>
           {volunteer.map((vol, index) => (
             <div key={index}>
               <h4 className="text-xs font-medium print-text-dark">{vol.organization}</h4>

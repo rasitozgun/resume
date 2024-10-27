@@ -6,7 +6,8 @@
 		"email": "mrasitozgun@gmail.com",
 		"phone": "+905432243394",
 		"url": "https://rasitozgun.dev",
-		"summary": "Uygulamaları sıfırdan oluşturabilen bir full stack web geliştiricisiyim. Çoğunlukla freelancer ve sözleşmeli olarak çalıştığım için birçok farklı rolü üstlenmeye alışkınım. Her şeyden önce kullanıcı geri bildirimlerine öncelik veren, ürün odaklı bir geliştiriciyim. Yeni projeleri araştırırken genellikle çok esneklik gösterebiliyorum.",
+        
+		"summary": "Sıfırdan uygulama geliştirme yeteneğine sahip bir Full Stack Web Developer olarak, şimdiye kadar çoğunlukla freelancer ve contractor olarak çalıştım. Yeni projeler üretmek söz konusu olduğunda kolaylıkla adapte olabiliyorum, ayrıca ürün odaklı bir developer olarak her şeyden önce feedbacklere öncelik veriyorum.",
 		"profiles": [
 			{
 				"network": "Github",
@@ -20,9 +21,19 @@
 			}
 		]
 	},
+    "sections": {
+		"workExperience": "Work Experience / İş Deneyimi",
+		"education": "Education / Eğitim",
+		"projects": "Projects / Projeler",
+		"skills": "Skills / Yetenekler",
+		"languages": "Languages / Diller",
+		"volunteer": "Volunteer Work / Gönüllü Çalışmalar",
+		"interests": "Interests / İlgi Alanları",
+		"references": "References / Referanslar"
+	},
 	"work": [
 		{
-			"name": "Demirören Technology / iddaa.com, Frontend Intern",
+			"name": "Demirören Technology / iddaa.com",
 			"position": "Frontend Intern",
 			"url": "https://www.demiroren.com.tr/",
 			"startDate": "2023-07-02",
@@ -121,7 +132,7 @@
 			"name": "Vinventory (Veritfy Stock)",
 			"startDate": "2024",
 			"endDate": "",
-			"description": "Next.js, Zustand, TypeScript ve TanStack Query kullanarak, PHP backend ile entegre edilmiş bir envanter yönetim sistemi olan Verify Stock'ı oluşturdum. Bu proje, etkili envanter yönetimi için ölçeklenebilir ve kullanıcı dostu çözümler geliştirme konusundaki becerilerimi gösteriyor.",
+			"description": "Ekibim ile Next.js, Zustand, TypeScript ve TanStack Query kullanarak, PHP backend ile entegre edilmiş bir envanter yönetim sistemi olan Verify Stock'ı oluşturdum. Bu proje, VeritfyTech'in ilk ürünüdür. Ekip çalışmasını sonuna kadar öğrendiğim bir proje oldu.",
 			"url": "https://veritfy.com",
 			"tags": [
 				"Next.js",

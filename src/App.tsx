@@ -25,7 +25,7 @@ function App() {
 
       {/* CV Bileşeni */}
       <div className="print:p-0 print:m-0">
-        <Resume data={resumeData} />
+        <Resume data={resumeData} language={language} />
       </div>  
     </div>
   );

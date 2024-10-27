@@ -6,7 +6,7 @@
 		"email": "mrasitozgun@gmail.com",
 		"phone": "+905432243394",
 		"url": "https://rasitozgun.dev",
-		"summary": "I'm a full stack web developer who can build apps from the ground up. I've worked mostly as a freelancer and contractor, so I am used to wearing many hats. I am a very product-focused developer who prioritizes user feedback first and foremost. I am very flexible when investigating new projects.",
+		"summary": "As a full stack web developer capable of building apps from the ground up, so far I have worked mostly as a freelancer and contractor. I am very flexible when it comes to investigating new projects, also I prioritize user feedback first and foremost all the while being a product-focused developer.",
 		"profiles": [
 			{
 				"network": "Github",
@@ -121,7 +121,7 @@
 			"name": "Vinventory (Veritfy Stock)",
 			"startDate": "2024",
 			"endDate": "",
-			"description": "Created Verify Stock, an inventory management system using Next.js, Zustand, TypeScript, and TanStack Query, integrated with a PHP backend. This project demonstrates my skills in developing scalable and user-friendly solutions for effective inventory management.",
+			"description": "With my team, I created Verify Stock, an inventory management system integrated with PHP backend using Next.js, Zustand, TypeScript, and TanStack Query. This project is VeritfyTech's first product. It was a project where I thoroughly learned teamwork.",
 			"url": "https://veritfy.com",
 			"tags": [
 				"Next.js",

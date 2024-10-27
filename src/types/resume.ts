@@ -29,6 +29,29 @@ export interface Skill {
   keywords: string[];
 }
 
+export interface Sections {
+  tr: {
+    workExperience: string;
+    education: string;
+    projects: string;
+    skills: string;
+    languages: string;
+    volunteer: string;
+    interests: string;
+    references: string;
+  };
+  en: {
+    workExperience: string;
+    education: string;
+    projects: string;
+    skills: string;
+    languages: string;
+    volunteer: string;
+    interests: string;
+    references: string;
+  };
+}
+
 export interface Language {
   language: string;
   fluency: string;
@@ -44,6 +67,7 @@ export interface ResumeData {
     summary: string;
     profiles: Profile[];
   };
+  
   work: WorkExperience[];
   projects: Project[];
   skills: Skill[];
