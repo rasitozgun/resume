@@ -137,6 +137,20 @@
 			]
 		},
 		{
+			"name": "My Neues Leben",
+			"startDate": "2023",
+			"endDate": "2023",
+			"description": "Twinery kullanılarak oluşturulan bir interaktif kısa hikaye.",
+			"highlights": [
+				"twine",
+				"Goethe"
+			],
+			"tags": [
+				"htmlparser2",
+				"discord.js"
+			]
+		},
+		{
 			"name": "PHP",
 			"startDate": "2021",
 			"endDate": "2021",
@@ -156,6 +170,10 @@
 		{
 			"name": "Hakan Yıldırım",
 			"reference": "hakaany@gmail.com - Eskişehir Osmangazi Üniversitesi Bilgisayar Programcılığı Öğretim Görevlisi"
+		},
+		{
+			"name": "Eda Pak Gökçebağ",
+			"reference": "Goethe-Institut, Eğitim İşbirliği Bölümü, PASCH Projesi Koordinatörü"
 		}
 	]
 }
