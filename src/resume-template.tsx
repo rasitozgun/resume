@@ -9,8 +9,13 @@ interface ResumeProps {
 }
 
 const present = {
-	tr: "Şu an",
+	tr: "Günümüz",
 	en: "Present",
+};
+
+const locale = {
+	tr: "tr-TR",
+	en: "en-US",
 };
 
 const Resume: React.FC<ResumeProps> = ({ data, language }) => {
@@ -87,16 +92,22 @@ const Resume: React.FC<ResumeProps> = ({ data, language }) => {
 									<p className="text-xs print-text-gray">{job.position}</p>
 								</div>
 								<span className="text-xs print-text-gray">
-									{new Date(job.startDate).toLocaleDateString("en-US", {
-										year: "numeric",
-										month: "short",
-									})}{" "}
+									{new Date(job.startDate).toLocaleDateString(
+										locale[language],
+										{
+											year: "numeric",
+											month: "short",
+										},
+									)}{" "}
 									-
 									{job.endDate
-										? new Date(job.endDate).toLocaleDateString("en-US", {
-												year: "numeric",
-												month: "short",
-											})
+										? new Date(job.endDate).toLocaleDateString(
+												locale[language],
+												{
+													year: "numeric",
+													month: "short",
+												},
+											)
 										: present[language]}
 								</span>
 							</div>
