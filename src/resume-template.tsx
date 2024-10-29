@@ -8,6 +8,11 @@ interface ResumeProps {
 	language: "tr" | "en";
 }
 
+const present = {
+	tr: "Şu an",
+	en: "Present",
+};
+
 const Resume: React.FC<ResumeProps> = ({ data, language }) => {
 	const { basics, work, projects, skills, languages, volunteer, references } =
 		data;
@@ -92,7 +97,7 @@ const Resume: React.FC<ResumeProps> = ({ data, language }) => {
 												year: "numeric",
 												month: "short",
 											})
-										: "Present"}
+										: present[language]}
 								</span>
 							</div>
 							<p className="text-xs mt-0.5 print-text-gray">{job.summary}</p>
