@@ -32,21 +32,21 @@
   },
   "work": [
     {
-      "name": "Freelance",
-      "position": "Fullstack Freelance",
-      "url": "https://rasitozgun.dev",
-      "startDate": "2023-07-02",
-      "endDate": "",
-      "summary": "Hem frontend hem de backend teknolojilerindeki deneyimlerimle desteklenen, farklı programlama dillerinde özelleştirilmiş çözümler sunarak, çeşitli müşteri ihtiyaçlarını karşılayan yüksek kaliteli web uygulamaları geliştiriyorum.",
-      "highlights": []
-    },
-    {
       "name": "Veritfy",
       "position": "Fullstack Developer",
       "url": "https://rasitozgun.dev",
       "startDate": "2024-07-02",
       "endDate": "",
       "summary": "Frontend, backend ve sunucu operasyonları arasında kusursuz entegrasyon sağlayarak uçtan uca web geliştirme ve dağıtımını yönetiyorum. Koddan dağıtıma kadar sağlam, ölçeklenebilir çözümler sunuyorum.",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Fullstack Freelance",
+      "url": "https://rasitozgun.dev",
+      "startDate": "2023-07-02",
+      "endDate": "",
+      "summary": "Hem frontend hem de backend teknolojilerindeki deneyimlerimle desteklenen, farklı programlama dillerinde özelleştirilmiş çözümler sunarak, çeşitli müşteri ihtiyaçlarını karşılayan yüksek kaliteli web uygulamaları geliştiriyorum.",
       "highlights": []
     },
     {

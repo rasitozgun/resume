@@ -22,21 +22,21 @@
   },
   "work": [
     {
-      "name": "Freelance",
-      "position": "Fullstack Freelance",
-      "url": "https://rasitozgun.dev",
-      "startDate": "2023-07-02",
-      "endDate": "",
-      "summary": "Providing tailored solutions across languages, I deliver high-quality web applications that meet diverse client needs, backed by experience in both frontend and backend technologies.",
-      "highlights": []
-    },
-    {
       "name": "Veritfy",
       "position": "Fullstack Developer",
       "url": "https://rasitozgun.dev",
       "startDate": "2024-07-02",
       "endDate": "",
       "summary": "Manage end-to-end web development and deployment, ensuring seamless integration across frontend, backend, and server operations. Deliver robust, scalable solutions from code to deployment.",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Fullstack Freelance",
+      "url": "https://rasitozgun.dev",
+      "startDate": "2023-07-02",
+      "endDate": "",
+      "summary": "Providing tailored solutions across languages, I deliver high-quality web applications that meet diverse client needs, backed by experience in both frontend and backend technologies.",
       "highlights": []
     },
     {
