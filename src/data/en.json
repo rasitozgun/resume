@@ -128,7 +128,7 @@
       "name": "Mein neues Leben",
       "startDate": "2023",
       "endDate": "2023",
-      "description": "A Twine game I developed for a German literature course.",
+      "description": "A short interactive story created by using Twine.",
       "highlights": [
         "twine",
         "Goethe"
