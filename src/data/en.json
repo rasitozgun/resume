@@ -154,6 +154,29 @@
       ]
     }
   ],
+  "skilss": [
+    {
+      "name": "Web Development",
+      "level": "Mid",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React (and frameworks)",
+        "PHP",
+        "Go",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Mid",
+      "keywords": [
+        "English",
+        "Turkish"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Eskişehir Osmangazi University",

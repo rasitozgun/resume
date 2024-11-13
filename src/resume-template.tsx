@@ -162,35 +162,29 @@ const Resume: React.FC<ResumeProps> = ({ data, language }) => {
 			)}
 
 			{/* Skills & Languages in 2 columns */}
-			{(skills && skills.length > 0) ||
-				(languages && languages.length > 0 && (
-					<div className="grid grid-cols-2 gap-4 mb-3">
-						{skills && skills.length > 0 && (
-							<section>
-								<h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">
-									{main_sections.skills}
-								</h3>
-								<div className="text-xs print-text-gray">
-									{skills[0].keywords.join(", ")}
-								</div>
-							</section>
-						)}
-
-						{languages && languages.length > 0 && (
-							<section>
-								<h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">
-									{" "}
-									{main_sections.languages}
-								</h3>
-								<div className="text-xs print-text-gray">
-									{languages
-										.map((lang) => `${lang.language} (${lang.fluency})`)
-										.join(", ")}
-								</div>
-							</section>
-						)}
+			{skills && skills.length > 0 && (
+				<section className="mb-3">
+					<h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">
+						{main_sections.skills}
+					</h3>
+					<div className="text-xs print-text-gray">
+						{skills[0].keywords.join(", ")}
 					</div>
-				))}
+				</section>
+			)}
+
+			{languages && languages.length > 0 && (
+				<section className="mb-3">
+					<h3 className="text-sm font-semibold border-b border-gray-300 pb-0.5 mb-2 print-text-dark">
+						{main_sections.languages}
+					</h3>
+					<div className="text-xs print-text-gray">
+						{languages
+							.map((lang) => `${lang.language} (${lang.fluency})`)
+							.join(", ")}
+					</div>
+				</section>
+			)}
 
 			{/* Education */}
 			{education && education.length > 0 && (
