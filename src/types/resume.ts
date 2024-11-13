@@ -29,6 +29,15 @@ export interface Skill {
 	keywords: string[];
 }
 
+export interface Education {
+	institution: string;
+	area: string;
+	studyType: string;
+	startDate: string;
+	endDate: string;
+	gpa: string;
+}
+
 export interface Sections {
 	tr: {
 		workExperience: string;
@@ -65,19 +74,20 @@ export interface Reference {
 export interface ResumeData {
 	basics: {
 		name: string;
-		label: string;
-		email: string;
-		phone: string;
-		url: string;
-		summary: string;
-		profiles: Profile[];
+		label?: string;
+		email?: string;
+		phone?: string;
+		url?: string;
+		summary?: string;
+		profiles?: Profile[];
 	};
 
-	work: WorkExperience[];
-	projects: Project[];
-	skills: Skill[];
-	languages: Language[];
-	references: Reference[];
+	work?: WorkExperience[];
+	projects?: Project[];
+	skills?: Skill[];
+	languages?: Language[];
+	references?: Reference[];
+	education?: Education[];
 	volunteer?: {
 		organization: string;
 		position: string;

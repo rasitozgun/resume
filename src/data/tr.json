@@ -20,16 +20,6 @@
       }
     ]
   },
-  "sections": {
-    "workExperience": "Work Experience / İş Deneyimi",
-    "education": "Education / Eğitim",
-    "projects": "Projects / Projeler",
-    "skills": "Skills / Yetenekler",
-    "languages": "Languages / Diller",
-    "volunteer": "Volunteer Work / Gönüllü Çalışmalar",
-    "interests": "Interests / İlgi Alanları",
-    "references": "References / Referanslar"
-  },
   "work": [
     {
       "name": "Veritfy",
@@ -162,6 +152,16 @@
         "PHP",
         "Stripe-php"
       ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Eskişehir Osmangazi Üniversitesi",
+      "area": "Bilgisayar Programcılığı",
+      "studyType": "Önlisans",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-30",
+      "gpa": "3.78"
     }
   ],
   "references": [

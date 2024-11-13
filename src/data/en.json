@@ -154,6 +154,16 @@
       ]
     }
   ],
+  "education": [
+    {
+      "institution": "Eskişehir Osmangazi University",
+      "area": "Computer Programming",
+      "studyType": "Associate",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-30",
+      "gpa": "3.78"
+    }
+  ],
   "references": [
     {
       "name": "Eda Pak Gökçebağ",
