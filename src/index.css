@@ -2,66 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
+.print-container {
+	width: 210mm;
+	min-height: 297mm;
+	padding: 6mm 10mm;
+	margin: 10mm auto;
+	background: white;
+}
+
 @media print {
-  @page {
-    size: A4;
-    margin: 0;
-  }
+	@page {
+		size: A4;
+	}
 
-  body {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-    color-adjust: exact !important;
-    background: white !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
+	@page :first {
+		margin-top: -5mm;
+		margin-bottom: 10mm;
+	}
 
-  .print-container {
-    padding: 1cm !important;
-    margin: 0 !important;
-    max-width: 21cm !important;
-    min-height: auto !important;
-    box-shadow: none !important;
-  }
+	html,
+	body {
+		width: 210mm;
+		background: white !important;
+		overflow-x: hidden;
+		-webkit-print-color-adjust: exact !important;
+		print-color-adjust: exact !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
 
-  /* Font size adjustments for print */
-  .print-text-dark {
-    color: #000 !important;
-    print-color-adjust: exact;
-  }
+	.print-container {
+		padding: 10mm !important; /* Yazdırma için daha az padding */
+		margin: 0 !important;
+		max-width: 21cm !important;
+		page-break-after: always;
+		box-shadow: none !important;
+		margin: 0 !important; /* Remove any top margin */
+		padding: 10mm 0mm !important;
+	}
 
-  .print-text-gray {
-    color: #4a5568 !important;
-    print-color-adjust: exact;
-  }
+	/* Ensure no unintended margins or paddings on child elements */
+	.print-container > * {
+		margin-top: 0 !important;
+		padding-top: 0 !important;
+	}
 
-  /* Remove all margins from headings */
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: 0 !important;
-  }
+	/* Avoid page breaks inside sections */
+	.print-container section {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
 
-  /* Adjust spacing */
-  .mb-3 {
-    margin-bottom: 0.5rem !important;
-  }
+	/* Adjust page breaks before and after sections */
+	section {
+		page-break-before: auto;
+		page-break-after: auto;
+	}
 
-  .mt-2 {
-    margin-top: 0.25rem !important;
-  }
+	/* Font size adjustments for print */
+	.print-text-dark {
+		color: #000 !important;
+		print-color-adjust: exact;
+	}
 
-  /* Hide scrollbars and background elements */
-  html, body {
-    overflow: hidden !important;
-  }
+	.print-text-gray {
+		color: #4a5568 !important;
+		print-color-adjust: exact;
+	}
 
-  /* Remove text decoration from links */
-  a {
-    text-decoration: none !important;
-  }
+	/* Remove all margins from headings */
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-top: 0 !important;
+	}
 
-  /* Hide non-essential elements */
-  .no-print, button, select, input {
-    display: none !important;
-  }
+	/* Adjust spacing */
+	.mb-3 {
+		margin-bottom: 0.5rem !important;
+	}
+
+	.mt-2 {
+		margin-top: 0.25rem !important;
+	}
+
+	/* Hide scrollbars and background elements */
+	html,
+	body {
+		overflow: hidden !important;
+	}
+
+	/* Remove text decoration from links */
+	a {
+		text-decoration: none !important;
+	}
+
+	/* Hide non-essential elements */
+	.no-print,
+	button,
+	select,
+	input {
+		display: none !important;
+	}
 }

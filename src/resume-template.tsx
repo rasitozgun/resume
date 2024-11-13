@@ -30,8 +30,9 @@ const Resume: React.FC<ResumeProps> = ({ data, language }) => {
 		education,
 	} = data;
 	const main_sections = sections[language]; // Dile göre başlıkları
+
 	return (
-		<div className="print-container max-w-[21cm] mx-auto p-6 bg-white text-gray-800 print:p-4 print:mx-0 print:shadow-none">
+		<div className="print-container max-w-[21cm] mx-auto p-2 bg-white text-gray-800">
 			{/* Header - Boşlukları azaltıldı */}
 			<header className="mb-3">
 				<h1 className="text-2xl font-bold text-gray-900 print-text-dark">
@@ -209,25 +210,30 @@ const Resume: React.FC<ResumeProps> = ({ data, language }) => {
 											{edu.studyType} - {edu.area}
 										</p>
 									</div>
-									<span className="text-xs print-text-gray">
-										{new Date(edu.startDate).toLocaleDateString(
-											locale[language],
-											{
-												year: "numeric",
-												month: "short",
-											},
-										)}{" "}
-										-{" "}
-										{edu.endDate
-											? new Date(edu.endDate).toLocaleDateString(
-													locale[language],
-													{
-														year: "numeric",
-														month: "short",
-													},
-												)
-											: present[language]}
-									</span>
+									<div className="flex flex-col">
+										<span className="text-xs print-text-gray">
+											{new Date(edu.startDate).toLocaleDateString(
+												locale[language],
+												{
+													year: "numeric",
+													month: "short",
+												},
+											)}{" "}
+											-{" "}
+											{edu.endDate
+												? new Date(edu.endDate).toLocaleDateString(
+														locale[language],
+														{
+															year: "numeric",
+															month: "short",
+														},
+													)
+												: present[language]}
+										</span>
+										<span className="text-xs text-end italic print-text-gray">
+											GPA: {edu.gpa}
+										</span>
+									</div>
 								</div>
 							</div>
 						))}
